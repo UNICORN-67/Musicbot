@@ -15,4 +15,4 @@ RUN apt update && apt install -y ffmpeg && \
 EXPOSE 8080
 
 # Command to run the bot
-CMD ["python", "run.py"]
+CMD ["python", "main.py"]
